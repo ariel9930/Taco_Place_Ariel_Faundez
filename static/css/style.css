@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Navbar*/
+.navbar {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.imagen {
+    display: flex;
+}
+
+.imagen img {
+    width: 100xp;
+    height: 30px;
+}
+
+.Taco {
+    color: #e76209;
+}
+
+.barrita_buscar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.barrita_buscar input {
+    padding: 10px;
+}
+
+.barrita_buscar img {
+    width: 25px;
+    height: 25px;
+}
+
+.carrito {
+    margin-right: 20px;
+}
+
+.login {
+    background-color: #ff5700;
+    border: none;
+    width: 60px;
+    color: white;
+}
+
+/*Navbar*/
+
+/*comidas*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comidas {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: #ffe7c6;
+    padding: 10px;
+}
+
+.comiditas {
+    text-align: center;
+}
+
+.comiditas img {
+    width: 160px;
+    height: 150px;
+}
+
+/*comidas*/
+
+/*info*/
+
+.info {
+    display: flex;
+    margin: 20px;
+}
+
+.Recomendados img {
+    width: 250px;
+    height: 160px;
+}
+.Lamejor_variedad{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.comida-mexicana img{
+    width: 600px;
+}
