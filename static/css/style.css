@@ -91,12 +91,82 @@
     width: 250px;
     height: 160px;
 }
-.Lamejor_variedad{
+
+.Lamejor_variedad {
+    display: flex;
+
+}
+
+.comida-mexicana img {
+    width: 600px;
+}
+
+.gris {
+    background-color: #c5c5c5;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.platillos {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    align-items: center;
+    text-align: center;
+    padding: 10px;
 }
-.comida-mexicana img{
-    width: 600px;
+
+.platillos a {
+    color: black;
+}
+
+.domicilio {
+    color: #e76209;
+}
+
+/*info*/
+
+/*Recomendados*/
+.Recomendados1 {
+    margin-left: 15px;
+}
+
+.Recomendados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+}
+
+.Más{
+        width: 30px;
+    height: 30px;
+    border-radius: 60%;
+    border: none;
+    background-color: #e76209;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    right: 20px;
+    top: 215px;
+}
+.Maz{
+        width: 30px;
+    height: 30px;
+    border-radius: 60%;
+    border: none;
+    background-color: #e76209;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    right: 20px;
+    top: 165px;
+}
+.caja{
+    border: solid 1px rgb(206, 201, 201);
+    border-radius: 5px;
+    background-color: rgb(243, 243, 243);
 }

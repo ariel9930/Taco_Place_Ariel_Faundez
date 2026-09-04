@@ -17,8 +17,8 @@
                 <h1><span class="Taco">Taco</span>Palace</h1>
             </div>
             <div class="barrita_buscar">
-                <input type="text" placeholder="email">
-                <button class="login">Login</button>
+                <input id="email"  type="text" placeholder="email">
+                <button  id="loginn" class="login">Login</button>
                 <div class="carrito"></div>
                 <img src="static/img/carrito.png" alt="carrito">
                 <span class="carrito_numero" id="carrito_numero">0</span>
@@ -58,29 +58,40 @@
             </div>
         </section>
         <section class="info">
-            <div class="Lamejor_variedad">
-                <h1>La mejor<br>variedad en<br>platillos de<br>comida<br>mexicana</h1>
-                <h2>contactanos con<br> <a href="#">servicio</a> a<br> <span class="domicilio">domicilio</span></h2>
-            </div>
-
-            <div class="comida-mexicana">
-                <img src="static/img/comida-mexicana.jpg" alt="comida-mexicana">
-            </div>
+            <section class="gris">
+                <div class="Lamejor_variedad">
+                    <div class="platillos">
+                    <h2>La mejor<br>variedad en<br>platillos de<br>comida<br>mexicana</h2>
+                    <h2>Contactanos con<br> <a href="#">servicio</a> a<br> <span class="domicilio">domicilio</span></h2>
+                    </div>
+                </div>
+                <div class="comida-mexicana">
+                    <img id="fotop" src="static/img/comida-mexicana.jpg" alt="comida-mexicana">
+                </div>
+            </section>
+            <section class="Recomendados1">
             <div class="Recomendados">
-                <h1>Recomendados:</h1>
+                <h2>Recomendados:</h2>
+                <div class="caja">
                 <img src="static/img/orden-tacos.jpg" alt="orden-flautas">
                 <p>Orden de tacos</p>
                 <p><a href="#">Ver Más</a></p>
-                <button class="+">+</button>
-
-            <div class="Recomendados">
-                <img src="static/img/orden-flautas.jpg" alt="orden-flautas">
-                <p>Orden de flautas</p>
-                <p><a href="#">Ver Más</a></p>
-                <button class="+">+</button>
+                <button id="Más"  class="Más">+</button>
+                </div>
             </div>
-        </section>
 
+                <div class="Recomendados">
+                    <div class="caja">
+                    <img src="static/img/orden-flautas.jpg" alt="orden-flautas">
+                    <p>Orden de flautas</p>
+                    <p><a href="#">Ver Más</a></p>
+                    <div id="Máss"  class="mass">
+                    <button class="Maz">+</button>
+                    </div>
+                    </div>
+                </div>
+                </section>
+        </section>
     </main>
     <script src="static/js/script.js"></script>
 </body>
